@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulario-cliente</title>
+    <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Cadastro Cliente</h1>
+
+        <form>
+            <div class="ns">
+                <div class="nome">
+                    <label for="nome">Nome</label>
+                    <input type="text" placeholder="Digite seu nome" id="nome">
+                </div>
+
+                <div class="sobrenome">
+                    <label for="sobrenome">Sobrenome</label>
+                    <input type="text" placeholder="digite seu sobrenome" id="sobrenome">
+                </div>
+            </div>
+
+            <div class="Email">
+                <label for="Email">Email</label>
+                <input type="email" placeholder="Digite seu Email" id="Email">
+            </div>
+
+            <div class="nc">
+                <div class="nascimento">
+                    <label for="nascimento">Data de nascimento</label>
+                    <input type="date" id="nascimento">
+                </div>
+
+                <div class="CPF">
+                    <label for="cpf">CPF</label>
+                    <input type="number" placeholder="EX:000-000-000-0" id="cpf">
+                </div>
+            </div>
+
+            <div class="cc">
+                <div class="cep">
+                    <label for="cep">CEP</label>
+                    <input type="number" placeholder="Digite seu CEP" id="cep">
+                </div>
+
+                <div class="complemento">
+                    <label for="complemento">Complemento</label>
+                    <input type="text" placeholder="EX:Apartamento 03" id="complemento">
+                </div>
+            </div>
+
+            <div class="cb">
+                <div class="cidade">
+                    <label for="cidade">Cidade</label>
+                    <input type="text" placeholder="Nome da cidade" id="cidade">
+                </div>
+
+                <div class="bairro">
+                    <label for="bairro">Bairro</label>
+                    <input type="text" placeholder="Nome do bairro" id="bairro">
+                </div>
+            </div>
+
+            <div class="rn">
+                <div class="rua">
+                    <label for="rua">Rua</label>
+                    <input type="text" placeholder="Nome da Rua" id="rua">
+                </div>
+
+                <div class="numero-residencia">
+                    <label for="numero da residencia">Numero da numero-residencia</label>
+                    <input type="number" placeholder="N:" id="numero-da-numero-residencia">
+                </div>
+            </div>
+
+
+            <div class="trabalhador">
+                <p>trabalha?</p>
+                <label for="sim">sim</label>
+                <input type="checkbox" id="sim">
+                <br>
+                <label for="nao">não</label>
+                <input type="checkbox" id="nao">
+            </div>
+
+            <div class="senha">
+                <label for="senha">Criar senha</label>
+                <input type="text" placeholder="Digite sua senha" id="senha">
+            </div>
+
+            <div class="confirm-senha">
+                <label for="confirm">Confirmar senha</label>
+                <input type="text" placeholder="Digite novamente sua senha" id="confirm">
+            </div>
+
+            <button>Enviar</button>
+
+        </form>
+    </div>
+</body>
+
+</html>

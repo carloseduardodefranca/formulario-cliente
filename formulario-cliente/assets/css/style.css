@@ -1,0 +1,260 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+
+
+
+
+
+.container {
+
+
+    & h1 {
+        width: 813px;
+        height: 54px;
+        font-weight: 400;
+        font-size: 36px;
+    }
+
+    & form {
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+
+        & .ns {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        & .nc {
+            display: flex;
+            justify-content: space-between;
+            padding: 10px;
+        }
+
+        & .cc {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .cb {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        & .rn {
+            display: flex;
+            justify-content: space-between;
+        }
+
+
+
+
+        & .nome {
+            width: 400px;
+            height: 66px;
+            display: flex;
+            flex-direction: column;
+            padding: 5px;
+            gap: 6px;
+
+        }
+
+        & .sobrenome {
+            width: 400px;
+            height: 66px;
+            display: flex;
+            flex-direction: column;
+            gap: 6px;
+
+            padding: 6px 10px;
+        }
+
+        & .Email {
+            width: 813px;
+            height: 66px;
+            display: flex;
+            flex-direction: column;
+            gap: 6px;
+        }
+
+        & .nascimento {
+            width: 200px;
+            height: 66px;
+            display: flex;
+            flex-direction: column;
+            gap: 6px;
+        }
+
+        & .CPF {
+            width: 600px;
+            height: 66px;
+            display: flex;
+            flex-direction: column;
+            gap: 6px;
+            padding: 1px;
+            padding-left: 10px;
+        }
+
+        & .cep {
+            width: 400px;
+            height: 66px;
+            display: flex;
+            flex-direction: column;
+            gap: 6px;
+        }
+
+        & .complemento {
+            width: 400px;
+            height: 66px;
+            display: flex;
+            flex-direction: column;
+            padding-left: 10px;
+            gap: 6px;
+        }
+
+        & .cidade {
+            width: 400px;
+            height: 66px;
+            display: flex;
+            flex-direction: column;
+            gap: 6px;
+        }
+
+        & .bairro {
+            width: 400px;
+            height: 66px;
+            display: flex;
+            flex-direction: column;
+            padding-left: 10px;
+            gap: 6px;
+        }
+
+        & .rua {
+            width: 600px;
+            height: 66px;
+            display: flex;
+            flex-direction: column;
+            gap: 6px;
+        }
+
+        & .numero-residencia {
+            width: 200px;
+            height: 66px;
+            display: flex;
+            flex-direction: column;
+            padding-left: 5px;
+            gap: 6px;
+        }
+
+        & .trabalhador {
+            width: 813px;
+            height: 86px;
+        }
+
+        & .senha {
+            width: 813px;
+            height: 66px;
+            display: flex;
+            flex-direction: column;
+            gap: 6px;
+        }
+
+        & .confirm-senha {
+            width: 813px;
+            height: 66px;
+            display: flex;
+            flex-direction: column;
+            gap: 6px;
+        }
+
+
+
+
+        & button {
+            width: 813px;
+            height: 50px;
+            border-radius: 8px;
+            padding: 10px;
+            color: white;
+            background-color: #5378BB;
+        }
+
+
+
+        #nome {
+            border-radius: 6px;
+            padding: 6px 10px;
+        }
+
+        #sobrenome {
+            border-radius: 6px;
+            padding: 6px 10px;
+        }
+
+        #Email {
+            border-radius: 6px;
+            padding: 6px 10px;
+        }
+
+        #nascimento {
+            border-radius: 6px;
+            padding: 6px 10px;
+        }
+
+        #cpf {
+            border-radius: 6px;
+            padding: 6px 10px;
+        }
+
+        #cep {
+            border-radius: 6px;
+            padding: 6px 10px;
+        }
+
+        #complemento {
+            border-radius: 6px;
+            padding: 6px 10px;
+        }
+
+        #cidade {
+            border-radius: 6px;
+            padding: 6px 10px;
+        }
+
+        #bairro {
+            border-radius: 6px;
+            padding: 6px 10px;
+        }
+
+        #rua {
+            border-radius: 6px;
+            padding: 6px 10px;
+        }
+
+        #numero-da-numero-residencia {
+            border-radius: 6px;
+            padding: 6px 10px;
+        }
+
+        #senha {
+            border-radius: 6px;
+            padding: 6px 10px;
+        }
+
+        #confirm {
+            border-radius: 6px;
+            padding: 6px 10px;
+        }
+
+    }
+}
